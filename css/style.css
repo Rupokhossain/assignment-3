@@ -1,0 +1,271 @@
+body {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  text-decoration: none;
+  list-style: none;
+
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #111;
+}
+
+header {
+  background-color: #fbfbfb;
+  padding: 20px;
+  border-bottom: 1px solid rgb(213, 203, 203);
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.nav_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  width: 10%;
+}
+.logo img {
+  width: 100%;
+}
+
+.menu {
+  width: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.menu ul {
+  display: flex;
+  gap: 35px;
+}
+.menu ul li {
+  list-style: none;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: #111111;
+  font-weight: 400;
+}
+.search {
+  width: 60px;
+  height: 60px;
+  background-color: #111111;
+  color: #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.search i {
+}
+
+/* section-1 start*/
+.section_1 {
+  background-color: #f3f3f3;
+  padding: 70px 0;
+  border-bottom: 1px solid rgb(213, 203, 203);
+}
+.grid_section {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 2fr 2fr 1fr;
+  gap: 30px;
+}
+.col_1 {
+}
+.col_1 img {
+  width: 100%;
+}
+.col_1 h2 {
+  margin: 15px 0;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 47px;
+}
+.col_p1 {
+  font-size: 18px;
+  font-weight: 300;
+}
+.col_p2 {
+  margin: 0 0 10px;
+  font-size: 18px;
+  font-weight: 300;
+}
+.col_1 a {
+  color: #000;
+  font-weight: 300;
+}
+
+.col_2 {
+  display: grid;
+  grid-template-rows: repeat(2, auto);
+  grid-template-columns: repeat(2, auto);
+  gap: 20px;
+}
+.grid_2 {
+}
+.grid_2 img {
+  width: 100%;
+  height: 130px;
+  object-fit: cover;
+}
+.grid_2 h3 {
+  font-weight: 600;
+}
+.grid_2 p {
+  font-weight: 300;
+}
+.politics {
+  text-decoration: underline;
+}
+
+.col_3 {
+  display: grid;
+  grid-template-rows: repeat(5, auto);
+  gap: 10px;
+}
+.grid_3 {
+  background-color: #fff;
+  padding: 10px;
+}
+.grid_3 h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 400;
+}
+.grid_footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.grid_footer p {
+  font-size: 14px;
+  font-weight: 300;
+  color: gray;
+}
+.grid_footer a {
+  font-size: 14px;
+  font-weight: 300;
+  color: gray;
+}
+
+/* section-1 end */
+
+/* section-2 start */
+.section_2 {
+  background-color: #f3f3f3;
+  padding: 30px 0;
+  border-bottom: 1px solid rgb(213, 203, 203);
+}
+.section_header {
+}
+.section_header h2 {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 400;
+}
+.section_header p {
+  margin: 0;
+  font-weight: 300;
+}
+
+.second_grid {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  grid-template-rows: 1fr;
+  gap: 30px;
+}
+.second_col {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(2, auto);
+  gap: 15px;
+}
+.second_col_text {
+}
+.second_col_text img {
+  width: 100%;
+}
+
+/* section-2 end */
+
+.third_col_text {
+}
+.third_col_text img {
+  width: 340px;
+  height: 230px;
+}
+
+.fourth_col {
+}
+.fourth_col img {
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+/* footer start */
+footer {
+  padding: 50px 0 0;
+  background-color: #1b1b1b;
+  color: #fff;
+}
+.footer_text {
+  margin-bottom: 25px;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 20px;
+}
+.about {
+}
+.about img {
+}
+.about p {
+  color: white;
+  font-size: 16px;
+  font-weight: 300;
+}
+.stories {
+}
+.stories h5 {
+  font-size: 18px;
+  margin: 0;
+}
+.stories ul {
+  padding: 0;
+}
+.stories ul li {
+  margin-bottom: 10px;
+  list-style: none;
+}
+.stories ul li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.contact {
+}
+.contact ul li {
+  list-style: disc;
+}
+.copyright_section {
+  background-color: #111;
+  padding: 20px 0;
+}
+.copyright {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.copyright_p1 {
+  font-size: 16px;
+  font-weight: 300;
+}
+.copyright_p2 {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+/* footer end */
